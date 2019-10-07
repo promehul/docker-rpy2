@@ -91,3 +91,4 @@ test -d R-rc && cd R-rc || cd R-patched && \
 RUN pip3 install rpy2
 
 ENV LD_LIBRARY_PATH="/usr/lib/R/lib:$LD_LIBRARY_PATH"
+CMD["run"]
